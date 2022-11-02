@@ -1,0 +1,31 @@
+.calculator-wrapper{
+    border: 1px solid black;
+    height: 100%;
+}
+.heading{
+    border-bottom: 1px solid white;
+    font-family: lato;
+}
+.calculator-wrapper{
+    background-color: black;
+    color: white;
+}
+.calculator-wrapper input{
+    display: block;
+    margin: 0 24px 0 24px;
+}
+.calculator-wrapper label{
+    margin: 24px 0 0 24px;
+}
+
+.calculator-wrapper .button-wrapper button{
+    margin: 24px 12px 12px 24px;
+    display: flex;
+    height: 30px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}

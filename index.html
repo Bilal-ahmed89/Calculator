@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+  <body>
+    <div class="container d-flex justify-content-center">
+        <div class="calculator-wrapper w-50 mt-3">
+            <div class="heading w-100 d-flex align-items-center justify-content-center ">
+             <h3>Standard Calculator</h3>
+            </div>
+            <label>Enter a Number:</label>
+            <input id="txt-1" type="text">
+            <label>Enter a Number:</label>
+            <input id="txt-2" type="text">
+
+            <div class="button-wrapper d-flex border-bottom border-white " > 
+            
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="exponent()">exp</button>
+            <button onclick="percentage()">%</button>
+            <button onclick="average()">avg</button>
+          </div>
+          <label>Result:</label>
+          <input id="txt-3" type="text" class="mb-4">
+          
+        </div><!-- /.calculator-wrapper -->
+     
+    </div><!-- /.container -->    
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
